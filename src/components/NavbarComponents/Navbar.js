@@ -21,7 +21,7 @@ class Navbar extends Component {
                         return (
                             <li key={index}>
                                 {/* <Link><i class="fa-solid fa-house"></i>Home</Link> */}
-                                <a className={item.cName} href="/"><i className={item.icon}></i>{item.title}</a>
+                                <Link className={item.cName} to={item.url}><i className={item.icon}></i>{item.title}</Link>
                             </li>
                         );
                     })}
