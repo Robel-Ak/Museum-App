@@ -1,5 +1,8 @@
+import Destination from "../components/DestinationComponents/Destination";
+import Footer from "../components/FooterComponents/Footer";
 import Hero from "../components/HeroComponents/Hero";
 import Navbar from "../components/NavbarComponents/Navbar";
+import Trip from "../components/TripComponents/Trip";
 
 function Home (){
     return(
@@ -14,6 +17,9 @@ function Home (){
                 url = "/"
                 btnClass= "show"
             />
+            <Destination/>
+            <Trip/>
+            <Footer/>
         </>
     )
 }
